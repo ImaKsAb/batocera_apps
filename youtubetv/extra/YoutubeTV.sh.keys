@@ -102,6 +102,62 @@
               "KEY_LEFTALT",
               "KEY_F4"
           ]
+        },
+		{
+            "trigger": "ArrowUp",
+            "type": "key",
+            "target": "KEY_UP"
+        },
+        {
+            "trigger": "ArrowDown",
+            "type": "key",
+            "target": "KEY_DOWN"
+        },
+        {
+            "trigger": "ArrowLeft",
+            "type": "key",
+            "target": "KEY_LEFT"
+        },
+        {
+            "trigger": "ArrowRight",
+            "type": "key",
+            "target": "KEY_RIGHT"
+        },
+        {
+            "trigger": "Enter",
+            "type": "key",
+            "target": "KEY_ENTER"
+        },
+		{
+            "trigger": "BrowserBack",
+            "type": "key",
+            "target": "KEY_ESC"
+        },
+        {
+            "trigger": "AudioVolumeUp",
+            "type": "exec",
+            "target": [
+            "batocera-audio setSystemVolume -5"
+            ]
+        },
+        {
+            "trigger": "AudioVolumeDown",
+            "type": "exec",
+            "target": [
+            "batocera-audio setSystemVolume +5"
+            ]
+        },
+        {
+            "trigger": "BrowserHome",
+            "type": "key",
+            "target": [
+              "KEY_LEFTALT",
+              "KEY_F4"
+          ]
+        },
+        {
+            "trigger": "joystick2",
+            "type": "mouse"
         }
     ]
 }
